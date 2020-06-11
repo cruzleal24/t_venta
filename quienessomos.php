@@ -14,7 +14,7 @@
 include ('header.php');
 ?>
 <div class="contenido">
-  <p>esta es la pagina de contactos</p>
+  <p>esta es la pagina de Quienes somos</p>
 </div>
 <footer>
   <?php

@@ -18,9 +18,15 @@ html {
 }
 html, body{
   height: 100%;
+  background-color: darkgray;
 }
 .contenido{
   min-height: calc(100% - 120px);
+  display: flex;
+  width: 70%;
+  position: relative;
+  left: 15%;
+  background: honeydew;
 }
 
 /*
@@ -269,3 +275,6 @@ textarea {
   }
 }
 
+.formulario input[type=text], input[type=tel], input[type=email], textarea{
+  border: 1px solid #999999;
+}
