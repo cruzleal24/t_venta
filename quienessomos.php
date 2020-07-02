@@ -13,8 +13,10 @@
 <?php
 include ('header.php');
 ?>
+<div class="hoja">
 <div class="contenido">
   <p>esta es la pagina de Quienes somos</p>
+</div>
 </div>
 <footer>
   <?php

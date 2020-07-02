@@ -14,9 +14,10 @@
 <?php
 include ('header.php');
 ?>
+<div class="hoja">
 <div class="contenido">
-<p>esta es la pagina de contactos</p>
-<ul>
+<div class="bloc">
+  <ul>
   <li><ul>
     <li>Josue Cruz</li>
     <li>Ventas</li>
@@ -34,7 +35,8 @@ include ('header.php');
     <li>Tornillos Especiales & Fijaciones Industriales</li>
   </ul></li>
 </ul>
-
+</div>
+<div class="bloc">
   <form class="formulario">
     <label  >Nombre:</label>
     <input type="text" name="nombre" placeholder="Nombre"></>
@@ -43,6 +45,8 @@ include ('header.php');
     <p> Comentarios: <textarea name="comentario" placeholder="Escribe tus comentarios..."></textarea> </p>
 
   </form>
+</div>
+</div>
 </div>
 <footer>
   <?php

@@ -20,13 +20,21 @@ html, body{
   height: 100%;
   background-color: darkgray;
 }
-.contenido{
+.hoja{
   min-height: calc(100% - 120px);
-  display: flex;
+  /*display: flex;*/
   width: 70%;
-  position: relative;
-  left: 15%;
+  margin: 0 15%;
   background: honeydew;
+}
+.contenido{
+  display: inline-flex;
+  margin: 2%;
+  width: 96%;
+}
+.bloc{
+  margin: 5%;
+  width: 40%;
 }
 
 /*
@@ -275,6 +283,9 @@ textarea {
   }
 }
 
-.formulario input[type=text], input[type=tel], input[type=email], textarea{
+.formulario input[type=text], input[type=tel], input[type=email], textarea, input[type=submit], input[type=number]{
   border: 1px solid #999999;
+  padding: 2px;
+  margin: 10px;
+  font-size: 17px;
 }
