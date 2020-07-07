@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="027862e7-6882-46d3-9854-8381c2955b11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/productos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contactanos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Contactanos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quienessomos.php" beforeDir="false" afterPath="$PROJECT_DIR$/quienessomos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insert_p.php" beforeDir="false" afterPath="$PROJECT_DIR$/insert_p.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <workItem from="1590174332917" duration="14959000" />
       <workItem from="1591037735855" duration="76960000" />
       <workItem from="1592415758612" duration="5856000" />
-      <workItem from="1592928308356" duration="17801000" />
+      <workItem from="1592928308356" duration="33747000" />
     </task>
     <servers />
   </component>
@@ -83,12 +83,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#com.intellij.ide.actionMacro.EditMacrosDialog/0.0.1366.728/-81.-900.1440.900@0.0.1366.728" timestamp="1591219873402" />
-    <state x="517" y="288" key="NewPhpFileDialog" timestamp="1591912273039">
+    <state x="517" y="288" key="NewPhpFileDialog" timestamp="1594068322024">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.728/-311.-1080.1920.1080@0.0.1366.728" timestamp="1591912273039" />
+    <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.728/-311.-1080.1920.1080@0.0.1366.728" timestamp="1594068322024" />
     <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.728/-81.-900.1440.900@0.0.1366.728" timestamp="1591128063841" />
     <state x="2093" y="102" key="NewPhpFileDialog/0.0.1366.728/1366.-325.1920.1080@1366.-325.1920.1080" timestamp="1590256702075" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1594068352460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728/-311.-1080.1920.1080@0.0.1366.728" timestamp="1594068352460" />
     <state x="222" y="-623" key="com.intellij.ide.util.TipDialog" timestamp="1592928443280">
       <screen x="-311" y="-1080" width="1920" height="1080" />
     </state>

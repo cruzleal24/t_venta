@@ -7,9 +7,10 @@ if(isset($_POST['insertar'])){
    $nombre =$_FILES['imagen']['name'];//nombre del archivo con extension
   $archivo=$_FILES['imagen']['tmp_name'];//ruta del archivo
   $direc= "img";
-  $direc=$direc."/".$nombre;//ruta donde se
+  $direc=$direc."/".$nombre;//ruta donde se va a almacenar
   move_uploaded_file($archivo,$direc);
-  $inserta= $mysql->query("insert into imagen(nombre, ruta) values ('$producto','$direc')");
+  $producto=$_REQUEST['producto'];
+  $inserta= $mysql->query("insert into imagen(nombre, ruta,producto) values ('$producto','$direc','$producto')");
 
   if ($inserta){
     echo "si entro sin problema";
@@ -45,8 +46,8 @@ include ('header.php');
           <label for="nombre">Nombre</label>
           <input type="text" name="nombre" placeholder="nombre">
           <br>
-          <!--label for="existencia">numero del producto</label>
-          <input type="number" name="producto" placeholder="producto"-->
+          <label for="product">numero del producto</label>
+          <input type="number" name="producto" placeholder="producto">
           <br>
           <input type="submit" name="insertar" value="enviar">
 
@@ -62,13 +63,21 @@ include ('header.php');
 
       while ($wr=$mira->fetch_array(MYSQLI_ASSOC)){
         echo "\n";
-        echo"<p>". $wr['id']." ". $wr['nombre']." ". $wr['ruta']."</p>";
+        echo"<p>". $wr['id_imagen']." ". $wr['nombre']." ". $wr['ruta']."</p>";
+      }
+      echo "<br>";
+      $cons_img= $mysql->query("select ruta from imagen");
+      while ($iw=$cons_img->fetch_array( MYSQLI_ASSOC)){
+
+        echo "<img src=".$iw['ruta'].">";
+        echo  $iw['ruta'];
       }
 
       ?>
     </div>
   </div>
 </div>
+
 <footer>
   <?php
   include ('footer.php');

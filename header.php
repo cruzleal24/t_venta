@@ -8,7 +8,7 @@
   <ul class="opcion">
     <li><a href="index.php">Inicio</a></li>
     <li><a href="quienessomos.php">Quienes somos</a></li>
-    <li><a href=""> Productos</a>
+    <li><a href="productos.php"> Productos</a>
       <ul>
         <li><a href="">opcion 1</a> </li>
         <li><a href="">opcion 2</a></li>

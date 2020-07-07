@@ -36,6 +36,34 @@ html, body{
   margin: 5%;
   width: 40%;
 }
+.tituloestilo {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  width: 100%;
+}
+/*
+*esta seccion se pone puro estilo de producto
+ */
+.articulos{
+  display: inline-flex;
+  width: 100%;
+}
+  .articulo{
+    border: 1px solid gray;
+    width: 150px;
+    height: auto;
+    margin: 2.5%;
+    border-radius: 5px;
+  }
+  .pimg{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+  }
+.prod{
+  width: 100%;
+  display: inline-block;
+}
 
 /*
  * Remove text-shadow in selection highlight:
