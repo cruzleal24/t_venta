@@ -45,19 +45,27 @@ html, body{
 *esta seccion se pone puro estilo de producto
  */
 .articulos{
-  display: inline-flex;
+  display: block;
   width: 100%;
+
 }
   .articulo{
     border: 1px solid gray;
     width: 150px;
     height: auto;
-    margin: 2.5%;
+    max-height: 230px;
+    min-height: 227px;
+    margin: 10px;
     border-radius: 5px;
+    position: initial;
+    float: left;
+    text-align: center;
+    padding: 5px;
   }
   .pimg{
     width: 150px;
     height: auto;
+    max-height: 105px;
     border-radius: 10px;
   }
 .prod{
